@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name — Portfolio</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+      line-height: 1.6;
+    }
+    header {
+      padding: 60px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #1e293b, #0f172a);
+      border-bottom: 1px solid #334155;
+    }
+    header h1 { font-size: 2.5rem; margin-bottom: 10px; }
+    header p { color: #94a3b8; font-size: 1.1rem; }
+    main {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    h2 {
+      font-size: 1.6rem;
+      margin-bottom: 20px;
+      border-left: 4px solid #38bdf8;
+      padding-left: 12px;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+    .project {
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 12px;
+      padding: 20px;
+      transition: transform 0.2s, border-color 0.2s;
+    }
+    .project:hover {
+      transform: translateY(-4px);
+      border-color: #38bdf8;
+    }
+    .project h3 { color: #38bdf8; margin-bottom: 8px; }
+    .project p { color: #94a3b8; font-size: 0.95rem; margin-bottom: 12px; }
+    .project a {
+      color: #38bdf8;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+    .project a:hover { text-decoration: underline; }
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #64748b;
+      font-size: 0.85rem;
+      border-top: 1px solid #334155;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <p>Frontend Developer &middot; your.email@example.com</p>
+  </header>
+
+  <main>
+    <h2>Projects</h2>
+    <div class="projects">
+
+      <div class="project">
+        <h3>Project One</h3>
+        <p>A short description of what this project does and what tech you used.</p>
+        <a href="#">View project →</a>
+      </div>
+
+      <div class="project">
+        <h3>Project Two</h3>
+        <p>A short description of what this project does and what tech you used.</p>
+        <a href="#">View project →</a>
+      </div>
+
+      <div class="project">
+        <h3>Project Three</h3>
+        <p>A short description of what this project does and what tech you used.</p>
+        <a href="#">View project →</a>
+      </div>
+
+      <div class="project">
+        <h3>Project Four</h3>
+        <p>A short description of what this project does and what tech you used.</p>
+        <a href="#">View project →</a>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    © 2026 Maksym Karashevskyi
+  </footer>
+</body>
+</html>
